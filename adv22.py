@@ -6,7 +6,7 @@ class Cuboid:
         self.x_range = x_range  # start, end for x
         self.y_range = y_range  
         self.z_range = z_range  
-        self.sign = sign        # +1 if on, -1 if overlap subtraction
+        self.sign = sign # +1 if on, -1 if overlap subtraction
 
     def volume(self):
         # volume of this cuboid
