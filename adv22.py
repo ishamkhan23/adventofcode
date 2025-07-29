@@ -56,4 +56,4 @@ if __name__ == "__main__":
     with open("adv22.txt") as f:
         lines = f.readlines()
     result = process_reboot_steps(lines)
-    print("Total cubes on after reboot:", result)
+    print (result)
